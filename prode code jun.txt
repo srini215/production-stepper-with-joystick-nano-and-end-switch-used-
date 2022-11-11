@@ -1,7 +1,7 @@
 #include <Stepper.h>
 
 // Set steps per revolution
-const int PPR = 20000;
+const int PPR = 30000;
 
 // Motor Y in pins 10-13
 Stepper motor1(PPR, 10,11,12,13);
